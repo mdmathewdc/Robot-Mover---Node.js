@@ -60,7 +60,7 @@ function place(command) {
   robot.placed = true
 }
 
-function reportThePositionort() {
+function reportThePosition() {
   console.log(robot.x + ','+robot.y+","+robot.f.toUpperCase())
 }
 
